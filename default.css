@@ -1,0 +1,217 @@
+html, body
+{height: 100%;}
+body
+{
+margin: 0px;
+padding: 0px;
+background: black;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 14pt;
+font-weight: 300;
+color: silver
+}
+h1, h2, h3
+{
+margin: 0;
+padding: 0;
+font-weight: 500;
+color: #454445;
+}
+h2
+{font-family: 'mv boli', sans-serif;
+font-weight: 800;
+}
+p, ol, ul
+{
+margin-top: 0;
+}
+ol, ul
+{
+padding: 0;
+list-style: none;
+}
+p
+{line-height: 180%;
+font-family: 'Avantgarde', sans-serif;
+}
+.container
+{
+margin: 0px auto;
+width: 1200px;
+}
+.button /*кнопки на главной странице (4шт)*/
+{
+display: inline-block;
+padding: 1.3em 3em;
+background: brown;
+font-family: 'fantasy', sans-serif;
+letter-spacing: 0.25em;
+text-decoration: none;
+font-weight: 900;
+color: silver;
+}
+.button:hover
+{
+background: white;
+}
+.button-big
+{
+padding: 1.6em 4em;
+font-size: 1.4em;
+font-weight: 900;
+}
+.title
+{
+margin-bottom: 3em;
+}
+.title h2
+{
+font-weight: 400;
+font-size: 2.8em;
+color: white;
+}
+.title .byline
+{
+letter-spacing: 0.15em;
+text-transform: uppercase;
+font-weight: 400;
+font-size: 1.1em;
+color: #6F6F6F;
+}
+#header /*верхний Board черный*/
+{
+position: relative;
+height: 100px;
+}
+#logo /*логотип слева в названии*/
+{
+position: absolute;
+top: 2em;
+width:13%;
+}
+#logo h1
+{
+background-image: url(images/tesla.png); /*путь к логотипу*/
+display: inline-block;
+font-size: 2.5em;
+text-transform: uppercase;
+font-weight: 900;
+color: white
+}
+#logo span
+{
+display: inline-block;
+padding-right: .50em;
+letter-spacing: 0.10em;
+text-transform: uppercase;
+font-size: 0.90em;
+}
+#logo a
+{
+text-decoration: none;
+color: #FFF;
+}
+#menu /*выравнивание меню справа сверху*/
+{
+position: absolute;
+right: 0;
+top: 1.6em;
+}
+#menu li
+{
+float: left;
+text-align: center;
+}
+#menu li a, #menu li span
+{
+display: inline-block;
+padding: 1em 1.5em 0em 1.5em;
+text-decoration: none;
+font-size: 1em;
+color: white;
+}
+#menu .current_page_item a
+{
+color: #8dc63f;
+}
+#header-featured
+{
+padding: 10em 0em;
+background-image: url(images/banner.jpg);
+background-position: center;
+background-size: cover;	}
+#banner
+{
+overflow: hidden;
+width: 1000px;text-align: center;
+color: rgba(255,255,255,.7);
+font-size: 1.5em;
+}
+#banner a
+{
+color: rgba(255,255,255,.9);
+}
+#banner h2
+{
+padding-bottom: 0.50em;
+font-weight: 400;
+font-size: 3em;
+color: white;
+}
+#banner .button
+{
+margin-top: 2em;
+background: Black;
+}
+#copyright p
+{
+letter-spacing: 0.20em;
+text-align: center;
+text-transform: uppercase;
+font-size: 0.90em;
+color: rgba(255,255,255,0.3);
+}
+#copyright a
+{
+text-decoration: none;
+color: rgba(255,255,255,0.6);
+}
+#featured-wrapper
+{
+overflow: hidden;
+padding: 10em 0em;
+background: #2b2b2b;
+text-align: center;
+}
+#featured .main-title
+{
+margin-bottom: 4em;
+}
+#featured .main-title h2
+{
+font-size: 4em;
+color: white;
+}
+.margin-btm
+{
+overflow: hidden;
+margin-bottom: 5em;
+padding-bottom: 5em;
+border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.extra2 .ebox1,
+.extra2 .ebox2
+{
+width: 560px;
+color: white;
+}
+.extra2  .ebox1
+{
+float: left;
+padding-right: 40px;
+border-right: 1px solid rgba(0,0,0,.1);
+}
+.extra2 .ebox2
+{
+float: right;
+}
